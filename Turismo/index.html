@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/styles.css"> <!-- Agregamos un archivo de estilos personalizados -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Turismo por Colombia</title>
+</head>
+<body>
+    <!--home section desing-->
+    <div id="principal" class="principal text-center mt-5">
+        <h1 class="display-4">¡Bienvenidos al sitio donde conocerás más sobre !</h1>
+    </div>
+    <div id="colombiaDiv" class="text-center mt-4"></div>
+
+    <div class="Regiones text-center mt-4">
+        <input type="button" class="btn btn-primary" value="Ver Regiones" onclick="mostrarRegiones()">
+    </div>
+    <div id="regionesDiv" class="text-center mt-4"></div>
+
+    <div class="turismo text-center mt-4">
+        <a href="Departamento.html" class="btn btn-success">
+            <p class="text-light">Ver Departamentos</p>
+        </a>
+    </div>  
+
+    <script src="Java script/infoPrincipal.js"></script>
+    <script src="Java script/obtenerRegiones.js"></script>
+</body>
+</html>
